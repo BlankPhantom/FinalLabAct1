@@ -33,6 +33,7 @@ function EditProduct({ editingProduct, setEditingProduct, onUpdate }) {
       });
   };
 
+  
   return (
     <form onSubmit={handleSubmit}>
       <label>Name:</label>
