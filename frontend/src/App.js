@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-d
 import Navbar from "./components/Navbar";
 import ProductPage from "./components/ProductPage";
 import Home from "./components/Home";
+import ViewCart from "./components/ViewCart";
+import Login from "./components/Login";
 import ContentManagement from "./components/ContentManagement";
 import EditProduct from "./components/EditProduct";
 import DeleteProduct from "./components/DeleteProduct";
