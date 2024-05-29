@@ -28,8 +28,8 @@ function ProductPage() {
       setCart((prevCart) => [...prevCart, { ...product, quantity: 1 }]);
     }
 
-    setShowPopup(true);
-    setTimeout(() => setShowPopup(false), 2000);
+    setShowPopup(true); // Show the popup when an item is added to the cart
+    setTimeout(() => setShowPopup(false), 2000); // Hide the popup after 2 seconds
   };
 
   const removeFromCart = (productId, decrement = false) => {
